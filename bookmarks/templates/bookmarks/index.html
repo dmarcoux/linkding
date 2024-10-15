@@ -3,6 +3,8 @@
 {% load shared %}
 {% load bookmarks %}
 
+{% block title %}{{ block.super }} - Bookmarks{% endblock %}
+
 {% block content %}
   <div ld-bulk-edit class="bookmarks-page grid columns-md-1">
 

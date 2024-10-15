@@ -4,6 +4,7 @@
 {# Use data attributes as storage for access in static scripts #}
 <html lang="en" data-api-base-url="{% url 'bookmarks:api-root' %}">
 {% include 'bookmarks/head.html' %}
+{% block title %}linkding{% endblock %}
 <body ld-global-shortcuts>
 
 <div class="d-none">
